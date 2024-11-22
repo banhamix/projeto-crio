@@ -1,49 +1,66 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SITE ELI</title>
+      <!--googlefonte-->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+          <!--fimgoogle-->
+          <!--boot icone-->
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+          <!--fim boot icones-->
+    <title>Cabeçalho Personalizado</title>
     <link rel="stylesheet" href="projeto2.css">
 </head>
 <body>
-    <header>
-        <h1>BEM VINDO AO SITE DO ELI</h1>
-    
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Botão com Link</title>
 
-<a href="file:///C:/Users/ismae/OneDrive/Documentos/primeiro%20site%20html/formulario.html" target="_blank" class="button-link">agende seu evento</a>
+<header>
+    <div class="logo">
+        <img src="eli.png"  width="200px">
+    </div>
+    <nav>
+        <ul>
+            <li><a href="#home">Início</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="file:///C:/Users/ismae/OneDrive/Documentos/primeiro%20site%20html/formulario.html" target="_blank">agenda</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
+    <div class="buscar">
+        <input type="text" placeholder="Pesquisar...">
+        <button>🔍</button>
+    </div>
+</header>
 
-    </header>
+    <!-- Seção principal do site -->
+    <section id="home">
+        <h1>Crie Seu Próximo Evento!</h1>
+        <p>Encontre, organize e compartilhe eventos incríveis com a nossa plataforma.</p>
+        <button>Comece Agora</button>
 
-    <main>
-        
-        <section id="sobre">
-            <h2>Sobre</h2>
-            <p>Este site é um exemplo de layout básico utilizando HTML e CSS.</p>
-        </section>
+        <img src="https://circulando.net/uploads/images/2024/04/centro-de-inovacao-criciuma-crio-1714410606.jpeg" width="1500px">
+    </section>
+    <!-- Seção de Introdução -->
+    <section id="introducao" class="intro">
+        <h2>Descubra os Melhores Eventos</h2>
+        <p>Fique por dentro dos eventos mais incríveis ao redor de santa catarina. Conecte-se com novas experiências e pessoas. Aqui você encontra tudo que você precisa para participar de eventos imperdíveis!</p>
+    </section>
 
-        <section id="contato">
-            <h2>Contato</h2>
-            <p>Para entrar em contato, envie um e-mail para: exemplo@dominio.com</p>
-        </section>
 
-        <section id="agenda">
-            <h2>Agenda</h2>
-            <p>Aqui estão os próximos eventos:</p>
-            <ul>
-                <li>01/12/2024 - Reunião de equipe</li>
-                <li>05/12/2024 - Apresentação do projeto</li>
-                <li>10/12/2024 - Evento de networking</li>
-            </ul>
-        </section>
-    </main>
+    <!-- Seção de Redes Sociais -->
+    <section id="contato" class="social-links">
+        <h3>Conecte-se conosco</h3>
+        <a href="https://youtube.com" target="_blank">youtube</a>
+        <a href="https://twitter.com" target="_blank">Twitter</a>
+        <a href="https://instagram.com" target="_blank">Instagram</a>
+    </section>
 
+    <!-- Rodapé -->
     <footer>
-        <p>&copy; 2024 Meu Site. Todos os direitos reservados.</p>
+        <p>&copy; 2024 crio. Todos os direitos reservados.</p>
     </footer>
+
 </body>
 </html>
-
